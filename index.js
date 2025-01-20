@@ -67,7 +67,7 @@ app.get("/", async(req, res) => {
  
   
       try {
-        const response = await axios.get("https://newsapi.org/v2/top-headlines?country=in&category=business&pageSize=100" , {
+        const response = await axios.get("https://newsapi.org/v2/top-headlines?country=us&category=business&pageSize=100" , {
           headers: { 
               'X-Api-Key':apikey
           },
@@ -93,7 +93,7 @@ app.get("/", async(req, res) => {
  
   
       try {
-        const response = await axios.get("https://newsapi.org/v2/top-headlines?country=in&category=entertainment&pageSize=100" , {
+        const response = await axios.get("https://newsapi.org/v2/top-headlines?country=us&category=entertainment&pageSize=100" , {
           headers: { 
               'X-Api-Key':apikey
           },
@@ -119,7 +119,7 @@ app.get("/", async(req, res) => {
  
   
       try {
-        const response = await axios.get("https://newsapi.org/v2/top-headlines?country=in&category=general&pageSize=100" , {
+        const response = await axios.get("https://newsapi.org/v2/top-headlines?country=us&category=general&pageSize=100" , {
           headers: { 
               'X-Api-Key':apikey
           },
@@ -145,7 +145,7 @@ app.get("/", async(req, res) => {
  
   
       try {
-        const response = await axios.get("https://newsapi.org/v2/top-headlines?country=in&category=health&pageSize=100" , {
+        const response = await axios.get("https://newsapi.org/v2/top-headlines?country=us&category=health&pageSize=100" , {
           headers: { 
               'X-Api-Key':apikey
           },
@@ -172,7 +172,7 @@ app.get("/", async(req, res) => {
  
   
       try {
-        const response = await axios.get("https://newsapi.org/v2/top-headlines?country=in&category=science&pageSize=100" , {
+        const response = await axios.get("https://newsapi.org/v2/top-headlines?country=us&category=science&pageSize=100" , {
           headers: { 
               'X-Api-Key':apikey
           },
@@ -201,7 +201,7 @@ app.get("/", async(req, res) => {
  
   
       try {
-        const response = await axios.get("https://newsapi.org/v2/top-headlines?country=in&category=sports&pageSize=100" , {
+        const response = await axios.get("https://newsapi.org/v2/top-headlines?country=us&category=sports&pageSize=100" , {
           headers: { 
               'X-Api-Key':apikey
           },
@@ -231,7 +231,7 @@ app.get("/", async(req, res) => {
  
   
       try {
-        const response = await axios.get("https://newsapi.org/v2/top-headlines?country=in&category=technology&pageSize=100" , {
+        const response = await axios.get("https://newsapi.org/v2/top-headlines?country=us&category=technology&pageSize=100" , {
           headers: { 
               'X-Api-Key':apikey
           },
